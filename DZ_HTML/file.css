@@ -1,0 +1,24 @@
+html{
+    background-color: #9f4c8d;
+}
+h1{
+    font-family: 'Appetite-Italic';
+    color:rgb(26, 24, 21);
+}
+h2{
+    color: rgb(246, 255, 0);
+}
+
+.bigtext {font-size: 25px;}
+
+ul{ list-style-type: lower-alpha;}
+
+@font-face {
+	font-family: 'Appetite-Italic';
+	src: url('./fonts/appetite-italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/appetite-italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/appetite-italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/appetite-italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/appetite-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/appetite-italic.svg#appetite-italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
